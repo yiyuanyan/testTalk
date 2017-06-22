@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="MyIdentifier" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cg-u9-kiQ">
+                                <rect key="frame" x="192" y="159" width="640" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="教室号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzf-Ou-ajv">
+                                        <rect key="frame" x="8" y="28" width="56" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="107498408" placeholder="教室号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VeA-NA-jIM">
+                                        <rect key="frame" x="72" y="25" width="560" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Tgv-DV-GZa"/>
+                                    <constraint firstAttribute="width" secondItem="2cg-u9-kiQ" secondAttribute="height" multiplier="8:1" id="Uku-Tc-Fp5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBG-rt-28M">
+                                <rect key="frame" x="192" y="247" width="640" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5G-1H-ob5">
+                                        <rect key="frame" x="8" y="30" width="35" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="jin" placeholder="昵称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sHm-RR-chl">
+                                        <rect key="frame" x="65" y="26" width="553" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dBG-rt-28M" secondAttribute="height" multiplier="8:1" id="ZxO-EJ-dPn"/>
+                                    <constraint firstAttribute="height" constant="80" id="usa-s3-uL5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wO9-Sm-qUZ">
+                                <rect key="frame" x="192" y="335" width="640" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="角色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xka-xv-vjJ">
+                                        <rect key="frame" x="0.0" y="30" width="35" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.76862745099999996" green="0.76862745099999996" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="老师" placeholder="昵称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LzV-Qb-URW" customClass="TKPickViewTextField">
+                                        <rect key="frame" x="72" y="25" width="550" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ShE-He-KsB"/>
+                                    <constraint firstAttribute="width" secondItem="wO9-Sm-qUZ" secondAttribute="height" multiplier="8:1" id="vAh-WI-Cag"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="tNa-KG-RFM">
+                                <rect key="frame" x="481.5" y="84" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tNa-KG-RFM" secondAttribute="height" multiplier="1:1" id="TVB-Bo-eua"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW1-mF-Hvd">
+                                <rect key="frame" x="312" y="464" width="400" height="50"/>
+                                <color key="backgroundColor" red="0.2627450980392157" green="0.40784313725490196" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BW1-mF-Hvd" secondAttribute="height" multiplier="8:1" id="1JG-kt-bN1"/>
+                                    <constraint firstAttribute="height" constant="50" id="a6v-I7-rp3"/>
+                                </constraints>
+                                <state key="normal" title="进入教室">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="joinRoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5H2-Pu-x8w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tNa-KG-RFM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="Gce-Wp-ewx"/>
+                            <constraint firstItem="BW1-mF-Hvd" firstAttribute="top" secondItem="wO9-Sm-qUZ" secondAttribute="bottom" constant="49" id="GqG-SE-xT0"/>
+                            <constraint firstItem="2cg-u9-kiQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kmi-iY-ZGh"/>
+                            <constraint firstItem="BW1-mF-Hvd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YKo-6r-gus"/>
+                            <constraint firstItem="dBG-rt-28M" firstAttribute="top" secondItem="2cg-u9-kiQ" secondAttribute="bottom" constant="8" id="ZQE-DB-rwW"/>
+                            <constraint firstItem="2cg-u9-kiQ" firstAttribute="top" secondItem="tNa-KG-RFM" secondAttribute="bottom" constant="15" id="ZgG-OX-Hkn"/>
+                            <constraint firstItem="tNa-KG-RFM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eIf-lu-cWn"/>
+                            <constraint firstItem="wO9-Sm-qUZ" firstAttribute="top" secondItem="dBG-rt-28M" secondAttribute="bottom" constant="8" id="fgm-7S-qkd"/>
+                            <constraint firstItem="dBG-rt-28M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iSV-nv-FhK"/>
+                            <constraint firstItem="wO9-Sm-qUZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xqy-Bv-h7f"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="g1M-tT-U38"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="iEnterRoomButton" destination="BW1-mF-Hvd" id="xwB-2l-D9z"/>
+                        <outlet property="iLogoImageView" destination="tNa-KG-RFM" id="Faf-KF-OUx"/>
+                        <outlet property="iNickNameTextField" destination="sHm-RR-chl" id="xGL-sg-Uxz"/>
+                        <outlet property="iNickNameTextFieldContainView" destination="dBG-rt-28M" id="eaq-6o-EdM"/>
+                        <outlet property="iRoleLabel" destination="xka-xv-vjJ" id="rgM-Tx-bUq"/>
+                        <outlet property="iRoleTextField" destination="LzV-Qb-URW" id="wrE-o2-x4h"/>
+                        <outlet property="iRoomIDContainView" destination="2cg-u9-kiQ" id="wK7-Sf-zLV"/>
+                        <outlet property="iRoomIDTextField" destination="VeA-NA-jIM" id="G8e-zc-i4t"/>
+                        <outlet property="nicknameLabel" destination="p5G-1H-ob5" id="YyT-L0-pMw"/>
+                        <outlet property="roomLabel" destination="Lzf-Ou-ajv" id="KgM-oN-s3M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="728.90625" y="-320.3125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO.png" width="60" height="60"/>
+    </resources>
+</document>
